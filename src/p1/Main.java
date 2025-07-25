@@ -1,5 +1,7 @@
 package p1;
 
+//import p2.D;
+
 import java.util.Scanner;
 
 public class Main {
@@ -21,5 +23,9 @@ public class Main {
         st3.setEdu(sc.nextLine());
         st3.setName(sc.nextLine());
         System.out.println(st3.getNum()+"   edu --"+st3.getEdu()+ "   name--"+st3.getName());
+
+        p2.D obj2= new p2.D();
+        obj2.writeX(1001);
+        System.out.println(obj2.readX());
     }
 }
